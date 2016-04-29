@@ -1,0 +1,34 @@
+
+body {
+	color: blue;
+}
+
+
+
+
+p { 
+         color: red;
+         background-color: green;
+        }
+
+p.green {
+         color: green;
+
+	}   /* 選擇一個class名稱為綠色的P標籤 */
+
+
+p#orange {
+         color: orange;
+
+	}   /* 選擇一個class名稱為橘色的P標籤 */
+
+
+
+h1 {
+
+	color: yellow;
+}
+
+
+
+
