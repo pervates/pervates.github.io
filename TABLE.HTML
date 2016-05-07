@@ -1,3 +1,5 @@
+
+
 <table>
     <tr>   <!--有幾個<tr>對就代表有幾列-->
        <th></th>         <!--第1個<th>對裡面不放東西-->
@@ -18,7 +20,11 @@
 <br>
 <br>
 <br>
-<table border = "3"  WIDTH = 450>    <!--為表格加上邊框 和 邊框寬度-->
+
+
+
+<table border = "3"  width="450"   bgcolor= "orange"  cellpadding="10" cellspacing="5">    
+     <!--為表格加上邊框,粗細是 3px 和 邊框寬度, 總寬度是 400px  和表格底色 -->
     <tr>
        <th></th>   <!-- th 會把文字置中且加粗-->
        <th> Monday </th>
@@ -27,14 +33,14 @@
     </tr>
     <tr>
        <th> 9-10 </th>
-       <td colspan = "2"> Art </td>   <!--欄向列的方向擴展兩格-->
+       <td colspan = "2" align="center"> Art </td>   <!--欄向列的方向擴展兩格-->
        <td> Sport </td>
     </tr>
     <tr>
        <th> 10-11 </th>
        <td> Math </td>
        <td> Chinese </td>
-       <td rowspan = "2"> HTML </td>  <!--列向欄的方向擴展兩格, 因為是向下擴展所以不能放在第4列-->
+       <td rowspan = "2" align="center"> HTML </td>  <!--列向欄的方向擴展兩格, 因為是向下擴展所以不能放在第4列  align="center"  表示文字置中-->
    </tr>
    <tr>
        <th> 11-12 </th>
@@ -43,15 +49,87 @@
    </tr>
 </table>
 
+<br>
+<br>
+<br>
+<br>
+
+
+
+
+
+
+
+
+<table border = "3"  width="450"   bgcolor= "orange"  cellspacing="2">    
+     <!--為表格加上邊框,粗細是 3px 和 邊框寬度, 總寬度是 400px  和表格底色 -->
+    <tr>
+       <th></th>   <!-- th 會把文字置中且加粗-->
+       <th> 早餐 </th>
+       <th> Tuesday </th>
+       <th> Wednesday </th>
+    </tr>
+    <tr>
+       <th> 9-10 </th>
+       <td colspan = "2" align="center"> Art </td>   <!--欄向列的方向擴展兩格-->
+       <td> Sport </td>
+    </tr>
+    <tr>
+       <th> 10-11 </th>
+       <td> Math </td>
+       <td> Chinese </td>
+       <td rowspan = "2" align="center"> HTML </td>  <!--列向欄的方向擴展兩格, 因為是向下擴展所以不能放在第4列  align="center"  表示文字置中-->
+    </tr>
+    <tr>
+       <th> 11-12 </th>
+       <td> Music </td>
+       <td> Science </td>
+    </tr>
+    <tr>
+       <th></th>   <!-- th 會把文字置中且加粗-->
+       <th> Monday </th>
+       <th> Tuesday </th>
+       <th> Wednesday </th>
+    </tr>
+    <tr>
+       <th></th>   <!-- th 會把文字置中且加粗-->
+       <th> Monday </th>
+       <th> Tuesday </th>
+       <th> Wednesday </th>
+    </tr>
+    <tr>
+       <th></th>   <!-- th 會把文字置中且加粗-->
+       <th> Monday </th>
+       <th> Tuesday </th>
+       <th> Wednesday </th>
+    </tr>
+    <tr>
+       <th></th>   <!-- th 會把文字置中且加粗-->
+       <th> Monday </th>
+       <th> Tuesday </th>
+       <th> Wednesday </th>
+    </tr>
+</table>
+
+<br>
+<br>
+<br>
+<br>
+
+
 
 <!--這是註解的寫法-->
 
 <!--
+cellpadding="10"   每一格內文字距離邊框 10px
+cellspacing="5"   每一個格子相距 5px
+
+通常我們以「列」代表「橫列」，「行」代表「直行」。
+td 代表 table data
 TR是指行(列),有幾個TR就有幾行。TD、TH則是欄的意思，每行中若有一個TD、一個TH則會有兩欄。因為TD和TH其實是同樣的東西，只是TH會將此格中的文字置中且加粗。
 -->
 
 <!--scope 用法 ???-->
-
 
 
 
