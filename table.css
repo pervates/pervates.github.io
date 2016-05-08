@@ -4,9 +4,11 @@
 body {  /* 以font-family特性訂做網⾴頁中的字型。依寫入的次序找字型,沒有就找下一個 */
 
 	font-family: Arial, Verdana, Geneva, sans-serif;  
-    font-size: 5px;      /*  以font-size特性控制字型⼤大⼩小。 */
+    font-size: 15px;      /*  以font-size特性控制字型大小。 */
     font-weight: normal;   
     /* 以font-weight特性影響字型的粗細。有lighter normal  bold  bolder */
+    /*color: silver;  以color特性為文字添加色彩。 */  
+    /*text-decoration: underline;  以text-decoration特性為文字加上更多花樣。 */ 
 }
 
 
