@@ -13,7 +13,7 @@ body {  /* 以font-family特性訂做網⾴頁中的字型。依寫入的次序�
 
 
 th { 
-         color: white;   /* 英文字的顏色直接用 color */
+         color: white;   /* CSS 的文字顏色設計採用的是 color 標示，不需要寫成 font-color */
          background-color: #570113;
         }
 
@@ -30,15 +30,13 @@ tr.tr#570113 {
 
 tr.red { 
          color: white;
-         background-color: red;
-        }  /* 發現 第2列第1欄的顏色不會被同列的顏色蓋過去,因為在HTML5中是先弄列再欄 */
+        }   
 
 
 tr.pink {
          color: #570113;
          background-color: pink;
-        }
-
+        }  /* 發現 第2列第1欄的顏色不會被同列的顏色蓋過去,因為在HTML5中是先弄列再欄 */
 
 
 
