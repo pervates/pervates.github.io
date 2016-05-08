@@ -1,6 +1,7 @@
 
 
 <table>
+<meta charset="UTF-8">  <!-- 要加這句才會在網頁出現中文字....卡得夭壽久...-->
     <tr>   <!--有幾個<tr>對就代表有幾列-->
        <th></th>         <!--第1個<th>對裡面不放東西-->
        <th scope = "col"> A </th>
@@ -57,57 +58,76 @@
 
 
 
+<!-- 下面是利用 CSS 寫的表格 -->
 
-
-
-
-<table border = "3"  width="450"   bgcolor= "orange"  cellspacing="2">    
+<table border = "3"  width="700"  cellspacing="2">    
      <!--為表格加上邊框,粗細是 3px 和 邊框寬度, 總寬度是 400px  和表格底色 -->
-    <tr>
+
+<link rel="stylesheet" type="text/css" href="table.css">
+
+    <tr class= "tr#570113">
        <th></th>   <!-- th 會把文字置中且加粗-->
-       <th> 10/08(Wed)<br>DAY1<br>Osaka </th>
-       <th> Tuesday </th>
-       <th> Wednesday </th>
+       <th> <font color="white">10/08(Wed) <br>DAY1<br>Osaka </font></th>
+       <!-- <td><font color="blue">藍色的文字</font></td> -->
+       <!-- <font face="DFKai-sb">標楷體</font> -->
+       
+       <th> <font color="white">10/09(Thu) <br>DAY2<br>Universal Cinema </font></th>
+       <th> <font color="white">10/10(Fri) <br>DAY3<br>Nara-shi </font></th>
+       <th> <font color="white">10/11(Sat) <br>DAY4<br>Kyoto </font></th>
+       <th> <font color="white">10/12(Sun) <br>DAY5<br>Osaka </font></th>
     </tr>
-    <tr>
-       <th> BR </th>
-       <td colspan = "2" align="center"> Art </td>   <!--欄向列的方向擴展兩格-->
-       <td> Sport </td>
+    <tr class= "red">
+       <th> 早餐 </th>
+       <td> 華航機上餐 </td>   
+       <td> 車站<br>商店 </td>
+       <td> 近鐵奈良<br>平宗柿葉壽司 </td>
+       <td> 車站<br>商店 </td>
+       <td> 黑門市場 </td>
+
     </tr>
-    <tr>
+    <tr class= "pink">
        <th> 10-11 </th>
        <td> Math </td>
        <td> Chinese </td>
-       <td rowspan = "2" align="center"> HTML </td>  <!--列向欄的方向擴展兩格, 因為是向下擴展所以不能放在第4列  align="center"  表示文字置中-->
+       <td> Chinese </td>
+       <td> Chinese </td>
+       <td> Chinese </td>
     </tr>
-    <tr>
+    <tr class= "red">
        <th> 11-12 </th>
        <td> Music </td>
        <td> Science </td>
+       <td> Chinese </td>
+       <td> Chinese </td>
+       <td> Chinese </td>
     </tr>
-    <tr>
-       <th></th>   <!-- th 會把文字置中且加粗-->
-       <th> Monday </th>
-       <th> Tuesday </th>
-       <th> Wednesday </th>
+    <tr class= "pink">
+       <th></th>   <!-- 會把文字置中且加粗 -->
+       <td> Music </td>
+       <td> Music </td>
+       <td> Music </td>
+       <td> Music </td>
+       <td> Music </td>
     </tr>
-    <tr>
-       <th></th>   <!-- th 會把文字置中且加粗-->
-       <th> Monday </th>
-       <th> Tuesday </th>
-       <th> Wednesday </th>
+    <tr class= "red">
+       <th>dinner</th>   <!-- th 會把文字置中且加粗-->
+       <td> Ichiran Ramen </td>
+       <td> gold dragon Ramen </td>
+       <td> Music </td>
+       <td> Music </td>
+       <td> Music </td>
     </tr>
-    <tr>
-       <th></th>   <!-- th 會把文字置中且加粗-->
-       <th> Monday </th>
-       <th> Tuesday </th>
-       <th> Wednesday </th>
+    <tr class= "pink">
+       <th>night tours</th>   <!-- th 會把文字置中且加粗-->
+       <td align="center"> America village<br> Kougaliu </td>
+       <td align="center"> Universal Cinema </td>
+       <td colspan = "2" align="center">  Shinsai Bashi<br> Dotonbori </td>
+       <td align="center"> by airplane </td>
     </tr>
-    <tr>
-       <th></th>   <!-- th 會把文字置中且加粗-->
-       <th> Monday </th>
-       <th> Tuesday </th>
-       <th> Wednesday </th>
+    <tr  bgcolor="FF8080">  <!-- 在 CSS 用別的顏色會出問題??? -->
+       <th>旅館</th>   <!-- th 會把文字置中且加粗-->
+       <td colspan = "4" align="center"> Hotel </td>
+       <td align="center"> sweet home </td>
     </tr>
 </table>
 
@@ -118,16 +138,24 @@
 
 
 
+
+
+
 <!--這是註解的寫法-->
 
 <!--
 cellpadding="10"   每一格內文字距離邊框 10px
 cellspacing="5"   每一個格子相距 5px
 
+Ctrl+Shift+C鍵，就可開啟色盤面板
+
 通常我們以「列」代表「橫列」，「行」代表「直行」。
 td 代表 table data
 TR是指行(列),有幾個TR就有幾行。TD、TH則是欄的意思，每行中若有一個TD、一個TH則會有兩欄。因為TD和TH其實是同樣的東西，只是TH會將此格中的文字置中且加粗。
 -->
+
+
+
 
 <!--scope 用法 ???-->
 

@@ -1,0 +1,154 @@
+
+
+
+body {  /* 以font-family特性訂做網⾴頁中的字型。依寫入的次序找字型,沒有就找下一個 */
+
+	font-family: Arial, Verdana, Geneva, sans-serif;  
+    font-size: 5px;      /*  以font-size特性控制字型⼤大⼩小。 */
+    font-weight: normal;   
+    /* 以font-weight特性影響字型的粗細。有lighter normal  bold  bolder */
+}
+
+
+th { 
+         color: white;   /* 英文字的顏色直接用 color */
+         background-color: #570113;
+        }
+
+tr {
+	text-align: center;   /* 可使表格內的文字置中 */
+		}
+
+
+tr.tr#570113 { 
+         color: white;
+         background-color: #570113;
+        }
+
+
+tr.red { 
+         color: white;
+         background-color: red;
+        }  /* 發現 第2列第1欄的顏色不會被同列的顏色蓋過去,因為在HTML5中是先弄列再欄 */
+
+
+tr.pink {
+         color: #570113;
+         background-color: pink;
+        }
+
+
+
+
+
+/*
+
+加上class
+1. html加入class標籤，並命名為：pgreen <p class=“pgreen”>這裡是文字</p> 
+2. CSS： p.pgreen { color: green; }
+
+上述 pgreen 的 p 可加可不加
+
+----
+
+加上id
+1. html加入id標籤，並命名為：pgreen <p id=“pgreen”>這裡是文字</p> 
+2. CSS： #pgreen { color: green; } 
+
+
+
+*/
+
+
+
+
+
+
+/*
+
+table 沒加 CSS 的寫法
+
+<table border = "3"  width="600"  cellspacing="2">    
+     <!--為表格加上邊框,粗細是 3px 和 邊框寬度, 總寬度是 400px  和表格底色 -->
+
+    <tr bgcolor= "#570113">
+       <th></th>   <!-- th 會把文字置中且加粗-->
+       <th> <font color="white">10/08(Wed) <br>DAY1<br>Osaka </font></th>
+       <!-- <td><font color="blue">藍色的文字</font></td> -->
+       <!-- <font face="DFKai-sb">標楷體</font> -->
+       
+       <th> <font color="white">10/09(Thu) <br>DAY2<br>Universal Cinema </font></th>
+       <th> <font color="white">10/10(Fri) <br>DAY3<br>Nara-shi </font></th>
+       <th> <font color="white">10/11(Sat) <br>DAY4<br>Kyoto </font></th>
+       <th> <font color="white">10/12(Sun) <br>DAY5<br>Osaka </font></th>
+    </tr>
+    <tr>
+       <th> BR </th>
+       <td > Art </td>   
+       <td> Sport </td>
+       <td> Sport </td>
+       <td> Sport </td>
+       <td> Sport </td>
+
+    </tr>
+    <tr>
+       <th> 10-11 </th>
+       <td> Math </td>
+       <td> Chinese </td>
+       <td> Chinese </td>
+       <td> Chinese </td>
+       <td> Chinese </td>
+    </tr>
+    <tr>
+       <th> 11-12 </th>
+       <td> Music </td>
+       <td> Science </td>
+       <td> Chinese </td>
+       <td> Chinese </td>
+       <td> Chinese </td>
+    </tr>
+    <tr>
+       <th></th>   <!-- th 會把文字置中且加粗-->
+       <td> Music </td>
+       <td> Music </td>
+       <td> Music </td>
+       <td> Music </td>
+       <td> Music </td>
+    </tr>
+    <tr>
+       <th>dinner</th>   <!-- th 會把文字置中且加粗-->
+       <td> Ichiran Ramen </td>
+       <td> gold dragon Ramen </td>
+       <td> Music </td>
+       <td> Music </td>
+       <td> Music </td>
+    </tr>
+    <tr>
+       <th align="center">night tours</th>   <!-- th 會把文字置中且加粗-->
+       <td align="center"> America village<br>Kougaliu </td>
+       <td align="center"> Universal Cinema </td>
+       <td colspan = "2" align="center">  Shinsai Bashi<br>Dotonbori </td>
+       <td align="center"> by airplane </td>
+    </tr>
+    <tr>
+       <th>Hotel</th>   <!-- th 會把文字置中且加粗-->
+       <td colspan = "4" align="center"> Hotel </td>
+       <td align="center"> sweet home </td>
+    </tr>
+</table>
+
+<br>  <!-- 斷行符號 -->
+<br>
+<br>
+<br>
+
+
+
+
+*/
+
+
+
+
+
+
