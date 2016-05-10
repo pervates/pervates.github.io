@@ -1,17 +1,27 @@
 
-
+/*
 @font-face {
 
 	font-family: "Emblema One";
 
-	src: url("http://wickedlysmart.com/hfhtmlcss/chapter8/journal/EmblemaOne-Regular.woff"), 
-	     url("http://wickedlysmart.com/hfhtmlcss/chapter8/journal/EmblemaOne-Regular.ttf");
+	src:url("http://wickedlysmart.com/hfhtmlcss/chapter8/journal/EmblemaOne-Regular.woff"), 
+	    url("http://wickedlysmart.com/hfhtmlcss/chapter8/journal/EmblemaOne-Regular.ttf");
 }
+*/
+
+
+@font-face {
+font-family: "Emblema One";
+src: url("EmblemaOne-Regular.woff") format("woff"),
+url("EmblemaOne-Regular.ttf") format("truetype");
+}
+
+
 
 
 h1 {
 
-	font-family: "Emblema One" , sans-serif;
+	font-family: "Emblema One", sans-serif;
 }
 
 
