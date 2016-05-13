@@ -1,0 +1,141 @@
+
+
+/* 主選單外觀 */
+ul li {
+
+	float: left;  /* 主選單的項目由左向右橫向排列 */
+    display: block;
+    background-color: #9A5927; 
+    width: 150px;
+    text-align: center;
+    line-height: 30px;
+    font-size: 12pt;
+}
+
+
+ul li a {
+	color: #F9F59A;
+	text-decoration: none;
+}
+
+
+ul li ul {
+	display: none;
+}
+
+
+/* 被滑鼠指到時,子選單出現與外觀改變 */
+ul li:hover ul {   /*  : 前後不能有空格 */
+	display: block;
+}
+
+ul li:hover {
+	background-color: #ba7947;
+}
+
+ul li ul li:hover {
+	background-color: #F9F59A;
+}
+
+ul li ul li:hover a {
+	color: #9A5927;
+}
+
+/*
+ul li ul {
+	z-index: 1;
+}
+
+*/
+
+
+
+
+
+/* 設定字體行間距 */
+
+p {
+	line-height: 20px;
+}
+
+
+
+#background {  /* id 命名的話前面用 # */
+	text-align: left;
+	color: #9A5927;
+	font-size: 15pt;
+}
+
+#storybegin {
+	text-align: left;
+	color: #9A5927;
+	font-size: 15pt;
+}
+
+#beautiful {
+	text-align: center;
+	color: #9A5927;
+}
+
+#pretty {  
+	text-align: center;
+	color: #9A5927;
+}
+
+#butter {  
+	text-align: center;
+	color: #9A5927;
+}
+
+#burn {
+	text-align: center;
+	color: #9A5927;
+}
+
+#bun {  
+	text-align: center;
+	color: #9A5927;
+}
+
+#tan {  
+	text-align: center;
+	color: #9A5927;
+}
+
+#stylish {
+	text-align: center;
+	color: #9A5927;
+}
+
+#franch {  
+	text-align: center;
+	color: #9A5927;
+}
+
+#black {  
+	text-align: center;
+	color: #9A5927;
+}
+
+
+/* 固定選單 */
+div.nav {
+	position: fixed;
+}
+
+
+/* CSS 圖片水平置中的用法 
+<img src="圖片網址" style="display:block; margin:auto;"/>   */ 
+img {
+	display:block;
+    margin: auto;
+}
+
+
+#textAlign {
+	text-align: center;
+}
+
+
+
+
